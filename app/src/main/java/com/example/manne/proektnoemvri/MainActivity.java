@@ -47,14 +47,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data){
-//        if(resultCode==RESULT_OK && requestCode==REQUEST_CODE){
-//            if(data.hasExtra("Guest")){
-////              userName=user.getUserName();
-//            }
-//        }
-//    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        if(resultCode==RESULT_OK && requestCode==REQUEST_CODE){
+            if(data.hasExtra("Guest")){
+//              userName=user.getUserName();
+            }
+        }
+    }
 
 
 
