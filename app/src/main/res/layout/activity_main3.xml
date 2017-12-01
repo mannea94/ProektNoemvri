@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manne.proektnoemvri.MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/DarkGreen"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="5dp"
+            >
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@color/White">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/editUser"
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:background="@color/Orange"
+            android:text="@string/edit" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/addUser"
+                android:layout_width="85dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@color/Orange"
+                android:text="@string/add"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/White">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/White">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Gender:"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="F"
+                    android:textColor="@color/Green"/>
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="M"
+                    android:textColor="@color/Green"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <!--android:text="Name\nLast Name" -->
+
+            </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@color/White"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="right|center"
+            android:layout_margin="5dp"
+            android:background="@color/Gray"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            />
+
+
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/White">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"/>
+        <!--android:text="Internet not checked yet"-->
+
+
+        <Button
+            android:id="@+id/buttonCheck"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/Orange"
+            android:text="CHECK INTERNET CONNECTION"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

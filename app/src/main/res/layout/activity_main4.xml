@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manne.proektnoemvri.MainActivity4"
+    android:background="@color/Green"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+        <Button
+            android:id="@+id/buttonCheck"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_marginVertical="5dp"
+            android:text="CHECK INTERNET CONNECTION"
+            android:textSize="20dp"
+            android:textColor="@color/White"
+            android:background="@color/Orange"/>
+        
+        <EditText
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_shape"
+            android:layout_marginVertical="5dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="@string/internet"
+            />
+            
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/left_arrow"
+        android:text="BACK"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="500dp"/>
+</RelativeLayout>

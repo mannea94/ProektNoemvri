@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProektNoemvri</string>
+    <string name="log_in">LOG IN</string>
+    <string name="continue_as_guest">continue as Guest</string>
+    <string name="next">NEXT</string>
+    <string name="edit">EDIT USER</string>
+    <string name="add">ADD USER</string>
+    <string name="internet">Internet is connected fine!</string>
+</resources>
